@@ -8,7 +8,10 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 /**
- *
+ * clase contenedora, cuenta con una lista de servicios tanto gastronomico como hospedaje, tiene una propiedad para obtener la lista,
+ * asi como metodos para agregar objetos hospedaje o gastronomia tirando exception si se repite el codigo
+ * metodo getServicio utilizando sobre escritura nos permite obtener un servicio a partir de un codigo,
+ * obtener una lista con servicios en promocion o no(segun campo) y tambn obtener servicios en promocion o no segun fecha
  * @author every
  */
 public class Sistema {
