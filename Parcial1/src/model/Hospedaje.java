@@ -7,7 +7,8 @@ package model;
 import java.time.LocalDate;
 
 /**
- *
+ * clase hospedaje heredada de servicio, incluye campo hospedaje para nombre y precioNoche para el precio
+ * sobreescribe metodo calcularPrecioFinal, en dias de semana se aplica descuento
  * @author every
  */
 public class Hospedaje extends Servicio {
