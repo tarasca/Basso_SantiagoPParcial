@@ -7,7 +7,8 @@ package model;
 import java.time.LocalDate;
 
 /**
- *
+ * clase heredade de servicio, cuenta con campos gastronomia para el nombre, precio y dias de la semana donde aplica descuento
+ * sobreescritura del metodo calcularPrecioFinal segun los dias q aplique el descuento
  * @author every
  */
 public class Gastronomia extends Servicio{
