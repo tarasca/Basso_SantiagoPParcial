@@ -10,6 +10,8 @@ import java.time.LocalDate;
  * clase base, tiene codigo de identificacion, descuento 0-1(0.1 ~ 10%, 0.2 ~ 20%, etc), si esta en promocion o no.
  * tambien posee un campo fecha q se define al momento de calcular el precio final, dicho calculo realizado con un 
  * metodo abstracto heredado por las subclases, cuenta con propiedades para cada campo
+ * en el metodo calcularPrecioFinal calcule los precios multiplicando los dias por el precio y aplique descuentos
+ * restandole el precio completo el porcentaje por el precio completo: (precio - (precio*descuento))
  * @author Basso Santiago
  */
 public abstract class Servicio {
